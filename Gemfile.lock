@@ -1,4 +1,7 @@
-bundle lock --add-platform x86_64-linux
+PLATFORMS
+  x86-mingw32
+  ruby 
+  x86_64-linux
 source 'https://rubygems.org'
 gem 'sinatra'
 gemspec
