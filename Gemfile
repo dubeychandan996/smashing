@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
-bundle lock --add-platformm x86_64-linux
+PLATFORMS
+  x86-mingw32
+  ruby 
+  x86_64-linux
 gem 'sinatra'
 gem 'puma'
 gemspec
